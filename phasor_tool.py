@@ -109,7 +109,7 @@ while gui.running:
         prev_cells = cells_val
         update = True
 
-    if (freq_val != prev_freq or
+    if freq_val != prev_freq or
         orient_val != prev_orient or
         profile_val != prev_profile):
         frequency[None] = freq_val

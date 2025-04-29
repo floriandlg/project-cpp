@@ -125,6 +125,3 @@ while gui.running:
 
     gui.set_image((image.to_numpy() + 1) / 2)
     gui.show()
-
-
-

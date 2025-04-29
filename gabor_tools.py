@@ -99,7 +99,7 @@ def phasor_kernel():
 
 # GUI Setup
 gui = ti.GUI("Phasor & Gabor", res=(RES, RES))
-use_gabor = False  # État initial : Phasor
+use_gabor = True  # État initial : Phasor
 
 # Initialisation des paramètres (ajustez selon vos besoins)
 frequency[None] = 50.
